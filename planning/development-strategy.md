@@ -1,55 +1,45 @@
-# Project Name
+# Hack Your Future Website
 
-<!-- describe your project -->
+- The Hack Your Future Website is a non-profit website aimed at teaching
+  programming to people with no prior experience for a period of 9 months in
+  Brussels and Antwerp.
 
----
+## User Requirements
 
-## Setup
+- As a user, I want to see a prominent page title with a logo that catches my
+  attention and gives me an idea about the content of the page. I also want to
+  see inspiring success stories of students who have completed the program,
+  comprehensive information about the program, and contact details for the
+  program's team.
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+## Languages
 
----
+- The website can be set up using HTML and CSS
 
-<!-- copy this section once for each must-have user story -->
+## Page Content
 
-## user story
+The page should include:
 
-<!-- each issue created from this section will have the `for: user story` label -->
+### Prominent page title with a logo
 
-> "as a ... i can ... so that ..."
+- The name of the page is Hack Your Future Website. The logo can be chosen to
+  match the overall purpose of the website and the program.
 
-<!-- write any extra notes or description -->
+## Inspiring success stories
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- Success stories should be added about the students who have participated in
+  the program and achieved success in their professional lives. A photo of the
+  student sharing the story and personal and professional background information
+  can be added.
 
-### Logic: user story
+### Information about the program
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Information should be provided about the program and the skills that students
+  learn during the training period. A photo of the classroom, teachers, and
+  students can be added.
 
-### Interface: user story
+## Contact details and addresses
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Contact details for the program, such as postal address, email addresses, and
+  phone numbers, should be provided. Links to the program's social media pages
+  can be added to communicate with current and future students.
