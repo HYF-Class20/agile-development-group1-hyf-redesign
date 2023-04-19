@@ -4,42 +4,27 @@
   programming to people with no prior experience for a period of 9 months in
   Brussels and Antwerp.
 
-## User Requirements
+## setup
 
-- As a user, I want to see a prominent page title with a logo that catches my
-  attention and gives me an idea about the content of the page. I also want to
-  see inspiring success stories of students who have completed the program,
-  comprehensive information about the program, and contact details for the
-  program's team.
+- [ ] Html file
+- [ ] Page title in the file
+- [ ] empty css
+- [ ] Css file is link to Html
 
-## Languages
+## Website
 
-- The website can be set up using HTML and CSS
+As a recent graduate who wants to transition into programming, I need to know
+the purpose, goals, achievement and values of the organization and how effect
+the organization has and i need to find
 
-## Page Content
+- Search bar: allows users to search for specific content within the website.
 
-The page should include:
+- Navigation menu facilitates user movement between website pages.
 
-### Prominent page title with a logo
+- Homepage provides an overview of the website and what it offers.
 
-- The name of the page is Hack Your Future Website. The logo can be chosen to
-  match the overall purpose of the website and the program.
+- Personal page allows users to create a personal account and manage their
+  information.
 
-## Inspiring success stories
-
-- Success stories should be added about the students who have participated in
-  the program and achieved success in their professional lives. A photo of the
-  student sharing the story and personal and professional background information
-  can be added.
-
-### Information about the program
-
-- Information should be provided about the program and the skills that students
-  learn during the training period. A photo of the classroom, teachers, and
-  students can be added.
-
-## Contact details and addresses
-
-- Contact details for the program, such as postal address, email addresses, and
-  phone numbers, should be provided. Links to the program's social media pages
-  can be added to communicate with current and future students.
+- Content pages contain the content provided by the website, including images,
+  videos, and articles.
