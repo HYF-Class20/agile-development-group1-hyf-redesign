@@ -15,9 +15,7 @@
 
 As a recent graduate who wants to transition into programming, I need to know
 the purpose, goals, achievement and values of the organization and how effect
-the organization has and i need to find
-
-- Search bar: allows users to search for specific content within the website.
+the organization has and i need to fin
 
 - Navigation menu facilitates user movement between website pages.
 
