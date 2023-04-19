@@ -6,16 +6,14 @@
 
 ## setup
 
-- [ ] Html file
-- [ ] Page title in the file
-- [ ] empty css
-- [ ] Css file is link to Html
+-  Html fil
+-  empty css
+-  Css file is link to Html
 
 ## Website
 
 As a recent graduate who wants to transition into programming, I need to know
-the purpose, goals, achievement and values of the organization and how effect
-the organization has and i need to fin
+the purpose, goals, achievement  of the organization and how effect it has and i need to find
 
 - Navigation menu facilitates user movement between website pages.
 
