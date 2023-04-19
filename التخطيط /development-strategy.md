@@ -19,8 +19,5 @@ the purpose, goals, achievement  of the organization and how effect it has and i
 
 - Homepage provides an overview of the website and what it offers.
 
-- Personal page allows users to create a personal account and manage their
-  information.
-
 - Content pages contain the content provided by the website, including images,
   videos, and articles.
