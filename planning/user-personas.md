@@ -2,7 +2,7 @@
 
 ## **Student**
 
-**Name**: Noor
+![Alt text](img/nour.jpeg) **Name**: Noor
 
 **Age**: 23
 
