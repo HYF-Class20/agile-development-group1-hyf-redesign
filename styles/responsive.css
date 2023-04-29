@@ -1,5 +1,15 @@
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
+
+  .Header-menu-link {
+    padding: 10px;
+    font-size: 11px;
+  }
+  .Header-menu-button {
+    width: 90px;
+    height: 36px;
+  }
+
   .Footer-form {
     padding: 35px 40px 35px 30px;
     width: 35%;
@@ -37,12 +47,137 @@
 
 /*mobile*/
 @media (max-width: 768px) {
+
+  .Header-in {
+    height: 75px;
+    padding-right: 40px;
+  }
+  
+
+  .Header-logo img {
+    height:48px;
+  }
+  .Header-menu-open{
+width: 24px;
+height: 24px;
+display: block;
+border: none;
+background-color: transparent;
+background-position: center;
+background-size: cover;
+background-image: url(../public/assets/images/icon-menu.svg);
+position: absolute;
+right: 25px;
+top: 50%;
+transform: translateY(-50%);
+}
+.Header-menu-open{}
+
+#menu__toggle:checked ~ .Header-menu {
+opacity: 1;
+}
+
+#menu__toggle:checked ~ .Header-menu-open {
+  background-image: url(../public/assets/images/icon-close.svg);
+
+  }
+  
+  .Header-menu{
+opacity: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 59px;
+    height: calc(100vh - 75px);
+    background-color: white;
+    border: 1px solid #00000020;
+   flex-direction: column;
+   padding-left: 0;
+   padding-top: 30px;
+  }
+  .Header-menu-item {
+    padding-top: 10px;
+  }
+  .Header-menu-link {
+    transition: 500ms;
+    color: rgb(127, 127, 127);
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Header-menu-link::after {
+    margin-top: 10px;
+    content: "";
+    height: 3px;
+    width: calc(100% + 10px);
+    display: block;
+    opacity: 0;
+    background-color: rgb(74, 80, 187);
+  }
+  
+  .Header-menu-link:hover {
+    color: rgb(74, 80, 187);
+  }
+  
+  .Header-menu-link:hover::after {
+    opacity: 1;
+    transition: 500ms;
+  }
+  .Header-menu-button {
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid rgb(74, 80, 187);
+    background-color: rgb(74, 80, 187);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+  }
+  
+  .Header-menu-button:hover {
+    transition: 500ms;
+    background-color: transparent;
+    color: rgb(74, 80, 187);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .Footer-in {
     flex-direction: column;
   }
   .Footer-form {
     padding: 30px;
-    width: 100%;
+    width: inherit
   }
 
   .Footer-form-item textarea {
