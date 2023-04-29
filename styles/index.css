@@ -15,7 +15,6 @@ h6 {
 }
 
 .container {
-  width: 100%;
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +24,11 @@ h6 {
 
 .Header {
   overflow: hidden;
+  position: relative;
 }
-
+#menu__toggle{
+  display: none;
+}
 .Header-in {
   display: flex;
   align-items: center;
@@ -43,6 +45,8 @@ h6 {
 }
 
 .Header-logo {
+  display: flex;
+  align-items: center;
 }
 .Header-logo img {
   height: 51px;
@@ -105,7 +109,9 @@ h6 {
   justify-content: center;
   transition: 500ms;
 }
-
+.Header-menu-open{
+display: none;
+}
 .Header-menu-button:hover {
   transition: 500ms;
   background-color: transparent;
