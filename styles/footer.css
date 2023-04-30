@@ -1,0 +1,119 @@
+.Footer {
+  overflow: hidden;
+}
+.Footer-in {
+  display: flex;
+}
+.Footer-form {
+  padding: 50px 100px;
+  width: 32%;
+  background-color: rgb(74, 80, 187);
+}
+
+.Footer-form-text h6 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.Footer-form-text p {
+  color: white;
+  max-width: 500px;
+  line-height: 160%;
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  font-weight: 300;
+}
+.Footer-form-item {
+  margin-bottom: 20px;
+}
+.Footer-form-item label {
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+.Footer-form-item input {
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: white;
+  width: 100%;
+}
+.Footer-form-item textarea {
+  height: 160px;
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: white;
+  width: 100%;
+}
+.Footer-form button {
+  display: inline-flex;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(45, 48, 55);
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  height: 41px;
+  transition: 500ms;
+}
+.Footer-form button:hover {
+  background-color: rgb(74, 80, 187);
+  color: white;
+  border-color: white;
+  transition: 500ms;
+}
+.Footer-map {
+  padding-left: 50px;
+  width: 68%;
+}
+.Footer-map img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.Footer-bottom {
+  padding: 50px 20px;
+}
+.Footer-bottom h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: center;
+}
+.Footer-bottom p {
+  color: rgb(45, 48, 55);
+  text-align: center;
+  line-height: 160%;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.Footer-bottom-social {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer-bottom-social-item {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
